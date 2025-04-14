@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './task-item.component.scss'
 })
 export class TaskItemComponent {
-
+  task = {
+    title: 'Learn Angular',
+    done: false
+  };
 }

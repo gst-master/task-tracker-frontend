@@ -1,1 +1,6 @@
-<p>task-item works!</p>
+<div>
+  <input type="checkbox" [checked]="task.done" />
+  <span [style.textDecoration]="task.done ? 'line-through' : 'none'">
+    {{ task.title }}
+  </span>
+</div>
